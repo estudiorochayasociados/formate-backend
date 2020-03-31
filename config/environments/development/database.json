@@ -4,12 +4,13 @@
     "default": {
       "connector": "bookshelf",
       "settings": {
-        "client": "mysql",
-        "database": "capacitaciones-rocha",
-        "host": "127.0.0.1",
-        "port": "3309",
-        "username": "root",
-        "password": ""
+        "client": "postgres",
+        "host": "${process.env.DATABASE_HOST}",
+        "port": "${process.env.DATABASE_PORT}",
+        "database": "${process.env.DATABASE_NAME}",
+        "username": "${process.env.DATABASE_USERNAME}",
+        "password": "${process.env.DATABASE_PASSWORD}",
+        "ssl": true
       },
       "options": {}
     }
