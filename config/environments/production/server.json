@@ -9,6 +9,9 @@
     "enabled": false
   },
   "admin": {
-    "autoOpen": false
+    "path": "/dashboard",
+    "build": {
+      "backend": "https://formate-backend.herokuapp.com"
+    }
   }
 }
