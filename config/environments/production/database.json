@@ -5,11 +5,11 @@
       "connector": "bookshelf",
       "settings": {
         "client": "mysql",
-        "database": "capacitaciones-rocha",
-        "host": "127.0.0.1",
-        "port": "3309",
-        "username": "root",
-        "password": ""
+        "database": "n38p7mwgdwe9mhy9",
+        "host": "zy4wtsaw3sjejnud.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "port": "3306",
+        "username": "qrmw8sswuojfomru",
+        "password": "mduehls4pxzsio5g"
       },
       "options": {}
     }
